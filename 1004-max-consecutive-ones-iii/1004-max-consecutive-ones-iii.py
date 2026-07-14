@@ -7,7 +7,7 @@ class Solution:
             if nums[right] == 0:
                 zeros += 1
             
-            while zeros > k:
+            if zeros > k:
                 if nums[left] == 0:
                     zeros -= 1
                 left += 1
